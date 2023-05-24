@@ -1,3 +1,4 @@
-# cinema-app 	 🎬📣🎥🍿👀 ![image](https://github.com/SofiiaKazanivska/cinema-app/assets/72439767/a2144091-b05f-48fa-a32f-6a3c2474307a)
+# cinema-app 	 🎬🍿👀 ![image](https://github.com/SofiiaKazanivska/cinema-app/assets/72439767/3021d5cb-9da3-416e-9f73-6c6ecd826815)
+
 
 
