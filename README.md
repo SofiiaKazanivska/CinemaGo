@@ -9,7 +9,7 @@
 
 ![image](https://github.com/SofiiaKazanivska/cinema-app/assets/72439767/3021d5cb-9da3-416e-9f73-6c6ecd826815)
 
-https://i.gifer.com/7CHI.gif
+<iframe src="https://gifer.com/embed/7CHI" width=480 height=269.760 frameBorder="0" allowFullScreen></iframe><p><a href="https://gifer.com">via GIFER</a></p>
 
 
 
