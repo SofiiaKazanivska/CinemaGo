@@ -22,7 +22,7 @@ STRUCTURE
 >
 >- dao - Data Access Object interfaces and their implementations
 >
-> - dto - Data Transfer Object
+>- dto - Data Transfer Object
 > 
 >- exception - custom DataProcessingException
 >
@@ -78,7 +78,14 @@ __UserController:__
 - GET /users/by-email/ - show user's information by email (only ADMIN role)
 
 
-	
+
+
+
+
+
+### 📩 Contact
+[Kazanivska Sofiia](https://www.linkedin.com/in/sofiia-kazanivska-40a413232/) <br>
+tonksmaryan@gmail.com
 
 
 
