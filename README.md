@@ -16,7 +16,7 @@ The application is built on Hibernate and Spring frameworks, using REST, SOLID, 
 - Data access object (DAO) - interaction of the program with the database.
 
 
-STRUCTURE
+### STRUCTURE
 >
 >- config - app's configuration
 >
@@ -38,44 +38,44 @@ STRUCTURE
 >
 >- controller - controllers for endpoints:
 
-- POST /login - authentication
-- GET /logout - logout
+- `POST /login` - authentication
+- `GET /logout` - logout
 
 
 __AuthenticationController:__
 
-- /register - new user registration
+- `/register` - new user registration
 
 __CinemaHallController:__
 
-- GET /cinema-halls/ - show all cinema-halls
-- POST /cinema-halls/ - add a new cinema hall (only ADMIN role)
+- `/cinema-halls/` - show all cinema-halls
+- `POST /cinema-halls/` - add a new cinema hall (only ADMIN role)
 
 __MovieController:__
 
-- GET /movies/ - show all movies
-- POST /movies/ - add a new movie (only ADMIN role)
+- `GET /movies/` - show all movies
+- `POST /movies/` - add a new movie (only ADMIN role)
 
 __MovieSessionController:__
 
-- GET /movie-sessions/available/ - show all available movie sessions
-- POST /movie-sessions/ - add a new movie session (only ADMIN role)
-- PUT /movie-sessions/${id}/ - update a movie session by id (only ADMIN role)
-- DELETE /movie-sessions/${id} - update/delete a movie session by id (only ADMIN role)
+- `GET /movie-sessions/available/` - show all available movie sessions
+- `POST /movie-sessions/` - add a new movie session (only ADMIN role)
+- `PUT /movie-sessions/${id}/` - update a movie session by id (only ADMIN role)
+- `DELETE /movie-sessions/${id}` - update/delete a movie session by id (only ADMIN role)
 
 __OrderController:__
 
-- GET /orders/ - show user's order history
-- POST /orders/complete - complete order
+- `GET /orders/` - show user's order history
+- `POST /orders/complete` - complete order
 
 __ShoppingCartController:__
 
-- GET /shopping-carts/by-user/ - show all tickets added to user's shopping cart
-- PUT /shopping-carts/movie-sessions/ - update shopping cart by movie session id
+- `GET /shopping-carts/by-user/` - show all tickets added to user's shopping cart
+- `PUT /shopping-carts/movie-sessions/` - update shopping cart by movie session id
 
 __UserController:__
 
-- GET /users/by-email/ - show user's information by email (only ADMIN role)
+- `GET /users/by-email/` - show user's information by email (only ADMIN role)
 
 
 
