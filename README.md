@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://unsplash.com/photos/QBvTMPAai_M" alt="Cinema App" width="200px">
+  <img src="" alt="Cinema App" width="400">
 </p>
 
 <h1 align="center">CINEMA - APP</h1>
