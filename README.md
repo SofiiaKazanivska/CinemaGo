@@ -135,7 +135,7 @@ __UserController:__
 </a>
 
 <a href="https://hibernate.org/orm/">
-    <img src="https://mvnrepository.com/artifact/org.hibernate/hibernate-core/5.6.14.Final" alt="Hibernate" width="200" height="50">
+    <img src="https://img.shields.io/badge/Hibernate-v.5.6.14.Final-lightblue" alt="Hibernate" width="200" height="50">
 </a>
 
 <a href="https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core/2.14.1">
