@@ -39,7 +39,7 @@ The application is built on Hibernate and Spring frameworks, using REST, SOLID, 
 
 
 
-### 📚 STRUCTURE 📚
+### 🚀 STRUCTURE 🚀
 >
 >- config - app's configuration
 >
@@ -156,7 +156,10 @@ __UserController:__
 
 
 
-### 📩 Contact
+
+
+
+### 💬 Contact 💬
 [Kazanivska Sofiia](https://www.linkedin.com/in/sofiia-kazanivska-40a413232/) <br>
 sofiakazzz@gmail.com
 
