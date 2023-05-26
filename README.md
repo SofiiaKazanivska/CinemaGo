@@ -113,11 +113,65 @@ __UserController:__
 > - Java Servlets API `v.4.0.1`
 > - Tomcat `v.9.0.73`
 
-> [![Maven](https://maven.apache.org/images/maven-logo-black-on-white.png)](https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.10.1)
+
+ <a href="https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.10.1">
+    <img src="https://maven.apache.org/images/maven-logo-black-on-white.png" alt="Maven" width="100" height="50">
+</a>
+
+
+<a href="https://www.oracle.com/java/technologies/javase-jdk17-downloads.html">
+    <img src="https://img.shields.io/badge/JDK-v.17.0.2-orange" alt="JDK" width="100" height="50">
+</a>
+
+
+<a href="https://spring.io/projects/spring-framework">
+    <img src="https://img.shields.io/badge/Spring%20Core-v.5.3.20-brightgreen" alt="Spring Core" width="100" height="50">
+</a>
 
 
 
-> [![Maven](https://maven.apache.org/images/maven-logo-black-on-white.png =100x100)](https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.10.1)
+
+<a href="https://dev.mysql.com/downloads/mysql/8.0.22.html">
+    <img src="https://img.shields.io/badge/MySQL-v.8.0.22-blue" alt="MySQL" width="100" height="50">
+</a>
+
+
+<a href="https://hibernate.org/orm/">
+    <img src="https://img.shields.io/badge/Hibernate-v.5.6.14.Final-lightblue" alt="Hibernate" width="100" height="50">
+</a>
+
+
+
+
+<a href="https://hibernate.org/orm/"><a href="https://hibernate.org/validator/">
+    <img src="https://img.shields.io/badge/Hibernate%20Validator-v.6.1.6.Final-lightblue" alt="Hibernate Validator" width="100" height="50">
+</a>
+
+
+<a href="https://github.com/FasterXML/jackson-core">
+    <img src="https://img.shields.io/badge/Jackson%20Core-v.2.14.1-yellow" alt="Jackson Core" width="100" height="50">
+</a>
+
+
+
+<a href="https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api/1.3.2">
+    <img src="https://img.shields.io/badge/Javax%20Annotation-v.1.3.2-red" alt="Javax Annotation" width="100" height="50">
+</a>
+
+
+
+<a href="https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api/4.0.1">
+    <img src="https://img.shields.io/badge/Java%20Servlets%20API-v.4.0.1-blueviolet" alt="Java Servlets API" width="100" height="50">
+</a>
+
+
+<a href="https://tomcat.apache.org/download-90.cgi">
+    <img src="https://img.shields.io/badge/Tomcat-v.9.0.73-yellowgreen" alt="Tomcat" width="100" height="50">
+</a>
+
+
+
+
 
 
 
