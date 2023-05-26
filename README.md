@@ -16,7 +16,7 @@ The application is built on Hibernate and Spring frameworks, using REST, SOLID, 
 - Data access object (DAO) - interaction of the program with the database.
 
 
-###  FEATURES
+###  🔥 FEATURES 🔥
 > __In the role of `USER` you can :__
 >
   > - view a list of movies
@@ -39,7 +39,7 @@ The application is built on Hibernate and Spring frameworks, using REST, SOLID, 
 
 
 
-### STRUCTURE
+### 📚 STRUCTURE 📚
 >
 >- config - app's configuration
 >
@@ -101,13 +101,13 @@ __UserController:__
 - `GET /users/by-email/` - show user's information by email (`ADMIN` role)
 
 
-###  TECHNOLOGIES
+###  💡 TECHNOLOGIES 💡
 > - Maven `v.3.10.1`
 > - JDK `v.17.0.2` `
 > - Spring Core `v.5.3.20`
 > - MySql `v.8.0.22`
 > - Hibernate `v.5.6.14.Final`
-> - Hibernate Validator `v,6.1.6.Final`
+> - Hibernate Validator `v.6.1.6.Final`
 > - Jackson core `v.2.14.1`
 > - Javax annotation `v.1.3.2`
 > - Java Servlets API `v.4.0.1`
@@ -153,9 +153,6 @@ __UserController:__
 <a href="https://hibernate.org/orm/"><a href="https://hibernate.org/validator/">
     <img src="https://img.shields.io/badge/Hibernate%20Validator-v.6.1.6.Final-lightblue" alt="Hibernate Validator" width="300" height="50">
 </a>
-
-
-
 
 
 
