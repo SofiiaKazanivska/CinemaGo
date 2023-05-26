@@ -1,4 +1,4 @@
-# *Cinema - app 🍿👀🎞*
+# __CINEMA - APP 🍿👀🎞__
 
 <sub>   
 	
@@ -6,6 +6,8 @@
 	Martin Scorsese
 	
  </sub>
+ 
+ ![Movie Watching](https://media.giphy.com/media/ZcnTGzZtdOg5i/giphy.gif)
 
 The application is built on Hibernate and Spring frameworks, using REST, SOLID, DRY principles, Three-Tier architecture:
 
@@ -13,60 +15,67 @@ The application is built on Hibernate and Spring frameworks, using REST, SOLID, 
 - Services - business logic;
 - Data access object (DAO) - interaction of the program with the database.
 
-![Movie Watching](https://media.giphy.com/media/ZcnTGzZtdOg5i/giphy.gif)
 
 STRUCTURE
 >
->-config - app's configuration
+>- config - app's configuration
 >
->-dao - Data Access Object interfaces and their implementations
+>- dao - Data Access Object interfaces and their implementations
 >
-> -dto - Data Transfer Object
+> - dto - Data Transfer Object
 > 
 >- exception - custom DataProcessingException
 >
->-lib - email and password validators with custom annotations
+>- lib - email and password validators with custom annotations
 >
->-model - models that represent entities in the database
+>- model - models that represent entities in the database
 >
->-service - services and their implementations that embody business logic
+>- service - services and their implementations that embody business logic
 >
->-util - contains a DateTime pattern
+>- util - contains a DateTime pattern
 >
->-resources - files with database configuration
+>- resources - files with database configuration
 >
 >- controller - controllers for endpoints:
 
-_-POST /login - authentication
-_-GET /logout - logout
-__-AuthenticationController:
+- POST /login - authentication
+- GET /logout - logout
 
-_-/register - new user registration
-__-CinemaHallController:
 
--GET /cinema-halls/ - show all cinema-halls
--POST /cinema-halls/ - add a new cinema hall (only ADMIN role)
-__-MovieController:
+__AuthenticationController:__
 
--GET /movies/ - show all movies
--POST /movies/ - add a new movie (only ADMIN role)
-__-MovieSessionController:
+- /register - new user registration
 
--GET /movie-sessions/available/ - show all available movie sessions
--POST /movie-sessions/ - add a new movie session (only ADMIN role)
--PUT /movie-sessions/${id}/ - update a movie session by id (only ADMIN role)
--DELETE /movie-sessions/${id} - update/delete a movie session by id (only ADMIN role)
-__-OrderController:
+__CinemaHallController:__
 
--GET /orders/ - show user's order history
--POST /orders/complete - complete order
-__-ShoppingCartController:
+- GET /cinema-halls/ - show all cinema-halls
+- POST /cinema-halls/ - add a new cinema hall (only ADMIN role)
 
--GET /shopping-carts/by-user/ - show all tickets added to user's shopping cart
--PUT /shopping-carts/movie-sessions/ - update shopping cart by movie session id
-__-UserController:
+__MovieController:__
 
--GET /users/by-email/ - show user's information by email (only ADMIN role)
+- GET /movies/ - show all movies
+- POST /movies/ - add a new movie (only ADMIN role)
+
+__MovieSessionController:__
+
+- GET /movie-sessions/available/ - show all available movie sessions
+- POST /movie-sessions/ - add a new movie session (only ADMIN role)
+- PUT /movie-sessions/${id}/ - update a movie session by id (only ADMIN role)
+- DELETE /movie-sessions/${id} - update/delete a movie session by id (only ADMIN role)
+
+__OrderController:__
+
+- GET /orders/ - show user's order history
+- POST /orders/complete - complete order
+
+__ShoppingCartController:__
+
+- GET /shopping-carts/by-user/ - show all tickets added to user's shopping cart
+- PUT /shopping-carts/movie-sessions/ - update shopping cart by movie session id
+
+__UserController:__
+
+- GET /users/by-email/ - show user's information by email (only ADMIN role)
 
 
 	
