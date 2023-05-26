@@ -122,7 +122,7 @@ __UserController:__
     <img src="https://maven.apache.org/images/maven-logo-black-on-white.png" alt="Maven" width="100" height="50">
 </a>
 
-<a href="https://www.oracle.com/java/technologies/javase-jdk17-downloads.html">
+<a href="https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html">
     <img src="https://img.shields.io/badge/JDK-v.17.0.2-orange" alt="JDK" width="100" height="50">
 </a>
 
