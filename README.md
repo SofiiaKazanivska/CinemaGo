@@ -138,7 +138,7 @@ __UserController:__
     <img src="https://img.shields.io/badge/Hibernate-v.5.6.14.Final-lightblue" alt="Hibernate" width="200" height="50">
 </a>
 
-<a href="https://github.com/FasterXML/jackson-core">
+<a href="https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core/2.14.1">
     <img src="https://img.shields.io/badge/Jackson%20Core-v.2.14.1-yellow" alt="Jackson Core" width="150" height="50">
 </a>
 
