@@ -113,6 +113,8 @@ __UserController:__
 > - Java Servlets API `v.4.0.1`
 > - Tomcat `v.9.0.73`
 
+> [![Maven](https://maven.apache.org/images/maven-logo-black-on-white.png)](https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.10.1)
+
 
 ### 📩 Contact
 [Kazanivska Sofiia](https://www.linkedin.com/in/sofiia-kazanivska-40a413232/) <br>
