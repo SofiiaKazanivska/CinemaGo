@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="Cinema App" width="400">
+  <img src="https://github.com/SofiiaKazanivska/cinema-app/blob/main/annie-spratt-QBvTMPAai_M-unsplash.png" alt="Cinema App" width="400">
 </p>
 
 <h1 align="center">CINEMA - APP</h1>
