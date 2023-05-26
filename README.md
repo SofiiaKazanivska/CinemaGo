@@ -1,4 +1,10 @@
-# __CINEMA - APP 🍿👀🎞__
+<p align="center">
+  <img src="https://unsplash.com/photos/QBvTMPAai_M" alt="Cinema App" width="200px">
+</p>
+
+<h1 align="center">CINEMA - APP</h1>
+
+
 
 <sub>   
 	
@@ -16,7 +22,8 @@ The application is built on Hibernate and Spring frameworks, using REST, SOLID, 
 - Data access object (DAO) - interaction of the program with the database.
 
 
-###  🔥 FEATURES 🔥
+### ⭐️ FEATURES ⭐️
+>
 > __In the role of `USER` you can :__
 >
   > - view a list of movies
@@ -35,7 +42,6 @@ The application is built on Hibernate and Spring frameworks, using REST, SOLID, 
    > - delete movie session by id
    > - view the list of movie sessions and add a movie session to the list
    > - find user by email
-
 
 
 
@@ -101,17 +107,18 @@ __UserController:__
 - `GET /users/by-email/` - show user's information by email (`ADMIN` role)
 
 
-###  💡 TECHNOLOGIES 💡
-> - Maven `v.3.10.1`
-> - JDK `v.17.0.2` `
-> - Spring Core `v.5.3.20`
-> - MySql `v.8.0.22`
-> - Hibernate `v.5.6.14.Final`
-> - Hibernate Validator `v.6.1.6.Final`
-> - Jackson core `v.2.14.1`
-> - Javax annotation `v.1.3.2`
-> - Java Servlets API `v.4.0.1`
-> - Tomcat `v.9.0.73`
+### 💡 TECHNOLOGIES 💡
+> - **Maven** `v.3.10.1` - build tool and dependency management
+> - **JDK** `v.17.0.2` - Java Development Kit
+> - **Spring Core** `v.5.3.20` - core framework of Spring
+> - **MySql** `v.8.0.22` - relational database management system
+> - **Hibernate** `v.5.6.14.Final` - object-relational mapping (ORM) for working with the database
+> - **Hibernate Validator** `v.6.1.6.Final` - data validation using Hibernate annotations
+> - **Jackson core** `v.2.14.1` - library for working with JSON
+> - **Javax annotation** `v.1.3.2` - standard Java annotations
+> - **Java Servlets API** `v.4.0.1` - extension for building Java-based web applications
+> - **Tomcat** `v.9.0.73` - server for deploying Java web applications
+
 
  <a href="https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.10.1">
     <img src="https://maven.apache.org/images/maven-logo-black-on-white.png" alt="Maven" width="100" height="50">
@@ -160,6 +167,7 @@ __UserController:__
 
 
 ### 💬 Contact 💬
+	
 [Kazanivska Sofiia](https://www.linkedin.com/in/sofiia-kazanivska-40a413232/) <br>
 sofiakazzz@gmail.com
 
