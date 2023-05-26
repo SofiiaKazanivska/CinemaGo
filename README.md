@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="annie-spratt-QBvTMPAai_M-unsplash.png" alt="Cinema App" width="400">
+  <img src="annie-spratt-QBvTMPAai_M-unsplash.png" alt="Cinema App" width="200">
 </p>
 
 <h1 align="center">CINEMA - APP</h1>
@@ -12,8 +12,6 @@
 	Martin Scorsese
 	
  </sub>
- 
- ![Movie Watching](https://media.giphy.com/media/ZcnTGzZtdOg5i/giphy.gif)
 
 The application is built on Hibernate and Spring frameworks, using REST, SOLID, DRY principles, Three-Tier architecture:
 
