@@ -116,6 +116,11 @@ __UserController:__
 > [![Maven](https://maven.apache.org/images/maven-logo-black-on-white.png)](https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.10.1)
 
 
+
+> [![Maven](https://maven.apache.org/images/maven-logo-black-on-white.png =100x100)](https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.10.1)
+
+
+
 ### 📩 Contact
 [Kazanivska Sofiia](https://www.linkedin.com/in/sofiia-kazanivska-40a413232/) <br>
 sofiakazzz@gmail.com
