@@ -17,23 +17,24 @@ The application is built on Hibernate and Spring frameworks, using REST, SOLID, 
 
 
 ###  FEATURES
->- In the role of `USER` you can :
+> __In the role of `USER` you can :__
 >
-  >> - view a list of movies
-  >> - view a list of cinema halls
-  >> - view available movie sessions
-  >> - create shopping cart
-  >> - add tickets to the shopping cart
-  >> - view shopping cart
-  >> - make an order
-  >> - view order history
-  >> 
-> - In the role of `ADMIN` you can:
-   >> - view the list of movies and add a movie to the list
-   >> - add info about cinema halls
-   >> - delete movie session by id
-   >> - view the list of movie sessions and add a movie session to the list
-   >> - find user by email
+  > - view a list of movies
+  > - view a list of cinema halls
+  > - view available movie sessions
+  > - create shopping cart
+  > - add tickets to the shopping cart
+  > - view shopping cart
+  > - make an order
+  > - view order history
+  > 
+ > __In the role of `ADMIN` you can:__
+>
+   > - view the list of movies and add a movie to the list
+   > - add info about cinema halls
+   > - delete movie session by id
+   > - view the list of movie sessions and add a movie session to the list
+   > - find user by email
 
 
 
@@ -101,7 +102,7 @@ __UserController:__
 
 
 ###  TECHNOLOGIES
-> - Maven `v.3.10.1
+> - Maven `v.3.10.1`
 > - JDK `v.17.0.2` `
 > - Spring Core `v.5.3.20`
 > - MySql `v.8.0.22`
