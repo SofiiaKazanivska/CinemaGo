@@ -16,6 +16,28 @@ The application is built on Hibernate and Spring frameworks, using REST, SOLID, 
 - Data access object (DAO) - interaction of the program with the database.
 
 
+###  FEATURES
+>- In the role of `USER` you can :
+>
+  >> - view a list of movies
+  >> - view a list of cinema halls
+  >> - view available movie sessions
+  >> - create shopping cart
+  >> - add tickets to the shopping cart
+  >> - view shopping cart
+  >> - make an order
+  >> - view order history
+  >> 
+> - In the role of `ADMIN` you can:
+   >> - view the list of movies and add a movie to the list
+   >> - add info about cinema halls
+   >> - delete movie session by id
+   >> - view the list of movie sessions and add a movie session to the list
+   >> - find user by email
+
+
+
+
 ### STRUCTURE
 >
 >- config - app's configuration
@@ -49,19 +71,19 @@ __AuthenticationController:__
 __CinemaHallController:__
 
 - `/cinema-halls/` - show all cinema-halls
-- `POST /cinema-halls/` - add a new cinema hall (only ADMIN role)
+- `POST /cinema-halls/` - add a new cinema hall (`ADMIN` role)
 
 __MovieController:__
 
 - `GET /movies/` - show all movies
-- `POST /movies/` - add a new movie (only ADMIN role)
+- `POST /movies/` - add a new movie ( `ADMIN` role)
 
 __MovieSessionController:__
 
 - `GET /movie-sessions/available/` - show all available movie sessions
-- `POST /movie-sessions/` - add a new movie session (only ADMIN role)
-- `PUT /movie-sessions/${id}/` - update a movie session by id (only ADMIN role)
-- `DELETE /movie-sessions/${id}` - update/delete a movie session by id (only ADMIN role)
+- `POST /movie-sessions/` - add a new movie session (`ADMIN` role)
+- `PUT /movie-sessions/${id}/` - update a movie session by id (`ADMIN` role)
+- `DELETE /movie-sessions/${id}` - update/delete a movie session by id (`ADMIN` role)
 
 __OrderController:__
 
@@ -75,12 +97,20 @@ __ShoppingCartController:__
 
 __UserController:__
 
-- `GET /users/by-email/` - show user's information by email (only ADMIN role)
+- `GET /users/by-email/` - show user's information by email (`ADMIN` role)
 
 
-
-
-
+###  TECHNOLOGIES
+> - Maven `v.3.10.1
+> - JDK `v.17.0.2` `
+> - Spring Core `v.5.3.20`
+> - MySql `v.8.0.22`
+> - Hibernate `v.5.6.14.Final`
+> - Hibernate Validator `v,6.1.6.Final`
+> - Jackson core `v.2.14.1`
+> - Javax annotation `v.1.3.2`
+> - Java Servlets API `v.4.0.1`
+> - Tomcat `v.9.0.73`
 
 
 ### 📩 Contact
