@@ -104,7 +104,7 @@ __UserController:__
 
 - `GET /users/by-email/` - show user's information by email (`ADMIN` role)
 
-### GETTING STARTED
+### 🔍 GETTING STARTED 🔍
 - Install JDK, Tomcat, and MySQL: Make sure you have JDK (Java Development Kit), Tomcat, and MySQL installed on your system. These are required dependencies for the project.
 - Clone the repository: Clone this project repository to your local machine using your preferred method. You can use Git and run the following command:`git clone <repository_link>`
 - Create an empty schema in the database: Set up a database and create an empty schema where the project data will be stored.
@@ -114,7 +114,7 @@ __UserController:__
 - Deploy the WAR file to Tomcat: Once the build is successful, deploy the generated WAR file to your Tomcat server.
 - Configure Tomcat Artifact: Configure the Tomcat artifact by selecting the "war-exploded" artifact and set the application context to "/".
 - Run the project: Start the Tomcat server and run the project. Access the application using the appropriate URL.
-- Login or register: Use the provided login credentials depending on the desired role (ADMIN or USER). For example, you can log in as an ADMIN with the email "admin@i.ua" and the password "admin12345". Alternatively, you can register a new user by sending a POST request to the `/register` endpoint.
+- Login or register: Use the provided login credentials depending on the desired role (ADMIN or USER). For example, you can log in as an ADMIN with the email `admin@i.ua` and the password `admin123`. Alternatively, you can register a new user by sending a POST request to the `/register` endpoint.
 
 
 ### 💡 TECHNOLOGIES 💡
