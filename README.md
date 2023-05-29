@@ -8,7 +8,7 @@
 
 <sub>   
 	
-	"Cinema is a matter of what's in the frame and what's out.
+	Cinema is a matter of what's in the frame and what's out.
 	Martin Scorsese
 	
  </sub>
