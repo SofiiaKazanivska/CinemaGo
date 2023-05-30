@@ -114,7 +114,7 @@ __UserController:__
 - Configure SQL dialect: Modify the SQL dialect in the project configuration files based on your MySQL version to ensure compatibility.
 - Build the project: Use Maven to build the project by running the following command in the project's root directory: `mvn clean install`.
 - Deploy the WAR file to Tomcat: Once the build is successful, deploy the generated WAR file to your Tomcat server.
-- Configure Tomcat Artifact: Configure the Tomcat artifact by selecting the "war-exploded" artifact and set the application context to "/".
+- Configure Tomcat Artifact: Configure the Tomcat artifact by selecting the `war-exploded` artifact and set the application context to `/`.
 - Run the project: Start the Tomcat server and run the project. Access the application using the appropriate URL.
 - Login or register: Use the provided login credentials depending on the desired role (ADMIN or USER). For example, you can log in as an ADMIN with the email `admin@i.ua` and the password `admin123`. Alternatively, you can register a new user by sending a POST request to the `/register` endpoint.
 
