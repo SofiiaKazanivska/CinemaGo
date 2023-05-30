@@ -12,6 +12,8 @@
 	Martin Scorsese
 	
  </sub>
+ 
+ This project is a web-based application designed to provide a user-friendly platform for managing movie bookings and cinema-related activities. It aims to streamline the ticket booking process, enhance the cinema experience, and improve overall customer satisfaction.The project brings significant business value to cinema owners and moviegoers alike. By offering an intuitive and efficient platform, it simplifies the movie ticket booking process and provides a seamless experience for customers. For cinema owners, it offers a comprehensive management system to handle ticket sales, movie schedules, and customer data, enabling them to optimize operations and enhance revenue generation.
 
 The application is built on Hibernate and Spring frameworks, using REST, SOLID, DRY principles, Three-Tier architecture:
 
