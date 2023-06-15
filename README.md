@@ -2,7 +2,7 @@
   <img src="annie-spratt-QBvTMPAai_M-unsplash.png" alt="Cinema App" width="200">
 </p>
 
-<h1 align="center">CINEMA - APP</h1>
+<h1 align="center">CinemaGo</h1>
 
 
 
